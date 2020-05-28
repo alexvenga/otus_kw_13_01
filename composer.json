@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/otus_kw_13_01",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "alex",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "predis/predis": "v1.1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "OtusKW1301\\": "src/"
+    }
+  }
+}
